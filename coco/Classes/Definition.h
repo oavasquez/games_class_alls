@@ -1,0 +1,13 @@
+//
+// Created by oavasquez on 01-26-18.
+//
+
+#ifndef PROJ_ANDROID_STUDIO_DEFINITION_H
+#define PROJ_ANDROID_STUDIO_DEFINITION_H
+
+#define TRANSITION_TIME 0.5
+
+
+#endif //PROJ_ANDROID_STUDIO_DEFINITION_H
+
+

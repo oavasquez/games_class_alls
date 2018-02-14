@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.23" orientation="orthogonal" renderorder="right-down" width="120" height="13" tilewidth="16" tileheight="16" infinite="0" nextobjectid="19">
+ <tileset firstgid="1" name="NES - Super Mario Bros - Tileset" tilewidth="16" tileheight="16" tilecount="924" columns="33">
+  <image source="NES - Super Mario Bros - Tileset.png" width="528" height="448"/>
+ </tileset>
+ <layer name="background" width="120" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt0TENACAAwDCCf0No48EFJKNHBSxbc4wFAFy1L3nd+St/2/xt87fN3zZ/2/xt87fN37YDFsKwGQ==
+  </data>
+ </layer>
+ <layer name="ground" width="120" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6Ctf+nFOAcFEwAAAACAG1XfHtxPAPE=
+  </data>
+ </layer>
+ <layer name="wall" width="120" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJACAQBMEH++/ZBkxFXGbgYoN9XDOzzOz70aBvm75t+rbp26Zvm75tL/reeMNdnunb5k+Ghg2xbQOL
+  </data>
+ </layer>
+</map>

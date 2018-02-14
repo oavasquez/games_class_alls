@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.23" orientation="orthogonal" renderorder="right-down" width="26" height="20" tilewidth="16" tileheight="16" infinite="0" nextobjectid="32">
+ <tileset firstgid="1" name="NES - Bomberman - General Sprites" tilewidth="16" tileheight="16" tilecount="378" columns="14">
+  <image source="NES - Bomberman - General Sprites.png" width="238" height="435"/>
+  <tile id="211" type="muro"/>
+ </tileset>
+ <tileset firstgid="379" name="NES - Super Mario Bros - Tileset" tilewidth="16" tileheight="16" tilecount="924" columns="33">
+  <image source="NES - Super Mario Bros - Tileset.png" width="528" height="448"/>
+  <tile id="1" type="block"/>
+  <tile id="4">
+   <objectgroup draworder="index"/>
+  </tile>
+ </tileset>
+ <layer name="background" width="26" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzrYmBg6BrFo3gUj+JRPIpH8ShGwgBAmxhg
+  </data>
+ </layer>
+ <layer name="wall" width="26" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKACEIRL3/9epA+xWIzLRGjl8JIpjMUwmnmc0mV9vj1HEGiAPkjbzfcFBk9Wg/jIP6z3Ki/o6TiawvZIq9LV3E8fnMP9jtNVrHPei4O15bxYm6Cg7SrOYwvT8Om/9Uq2qe034VDF/T4R8gcIbM
+  </data>
+ </layer>
+ <objectgroup name="collision-layer">
+  <object id="3" x="16.3333" y="305">
+   <polyline points="0,0 384.417,0.5 383.758,-289.182 -0.242424,-289.091 0.030303,-0.0909091"/>
+  </object>
+  <object id="4" x="256.333" y="304.333">
+   <polyline points="0,0 -0.333333,-16 15.3333,-16 15.3333,-32.3333 32,-32.3333 31.3333,-48 47.6667,-48.3333 48,-64.6667 64.3333,-64 64,-80.3333 79.6667,-80 80.3333,-97 97.3333,-96.3333 96.6667,-113 112.667,-112 112.333,-128.333 128,-128.333 128.333,-143.333 144,-143 144,-111.667 128.667,-111.667 128,-97.3333 111.667,-96.3333 112,-81 96.3333,-80.3333 97.3333,-64.3333 80,-64.6667 79.6667,-48.3333 64.6667,-47.6667 64.6667,-32.3333 48.6667,-31.6667 48.6667,-17.6667 31.6667,-15.6667 32.3333,-2.33333 32.3333,0.333333 0.333333,0.333333"/>
+  </object>
+  <object id="5" x="336.667" y="145">
+   <polyline points="0,0 -0.333333,15.6667 15.6667,16 15.3333,-0.666667 0.666667,-0.333333"/>
+  </object>
+  <object id="6" x="320.333" y="97">
+   <polyline points="0,0 -0.333333,15 15.3333,15 15,-1.33333 0.333333,-1.66667"/>
+  </object>
+  <object id="7" x="255.502" y="81.5107">
+   <polyline points="0.498438,-1.32825 0.498438,94.3081 15.294,94.6402 15.2471,62.4293 32.369,62.5123 32.369,94.225 48.3166,94.3081 48.3166,-1.32825 0.498438,-1.32825"/>
+  </object>
+  <object id="8" x="192" y="80">
+   <polyline points="0,0 0.666667,95.0833 46.6667,95 46,81 15.3333,80.3333 15,-0.333333 0.5,0"/>
+  </object>
+  <object id="9" x="128.833" y="82.2342">
+   <polyline points="0,0 0,91.7737 44.25,92.0991 44.25,0 0,-0.650878"/>
+  </object>
+  <object id="10" x="63.6565" y="80.5">
+   <polyline points="0,0 0,94.8368 13.8945,94.5052 14.2177,47.5 32.4779,47.3316 32.3741,95.4184 47.1769,95.5 45.2381,0.663195 32.1973,0.994792 32.2704,31.9149 15.1871,31.8333 14.8639,0.331597 -0.323129,0"/>
+  </object>
+  <object id="11" x="368.5" y="112.5">
+   <polyline points="0,0 0,15.75 14.25,15.75 14.75,0.75 -0.5,0.5"/>
+  </object>
+  <object id="12" x="17" y="160.333">
+   <polyline points="0,0 15.3333,-0.333333 15.6667,15 0,15.3333"/>
+  </object>
+  <object id="25" name="prueba" x="176.5" y="256" width="47.5" height="16"/>
+  <object id="28" name="prueba2" x="112.5" y="256.25" width="31.5" height="16.25"/>
+  <object id="29" x="56" y="204" width="50" height="50">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

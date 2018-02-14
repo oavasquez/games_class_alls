@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.23" orientation="orthogonal" renderorder="right-down" width="65" height="34" tilewidth="32" tileheight="32" infinite="0" nextobjectid="65">
+ <tileset firstgid="1" name="tiledmap" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="667" columns="23">
+  <image source="tiledmap.png" width="760" height="958"/>
+  <tile id="486">
+   <properties>
+    <property name="agua" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="496">
+   <properties>
+    <property name="agua" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="506">
+   <properties>
+    <property name="A1" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="507">
+   <properties>
+    <property name="A2" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="508">
+   <properties>
+    <property name="A3" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="512">
+   <properties>
+    <property name="B1" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="514">
+   <properties>
+    <property name="B2" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="516">
+   <properties>
+    <property name="A1" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="517">
+   <properties>
+    <property name="A2" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="518">
+   <properties>
+    <property name="A3" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="519">
+   <properties>
+    <property name="B1" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="B1" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="524">
+   <properties>
+    <property name="B2" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="529">
+   <properties>
+    <property name="A4" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="531">
+   <properties>
+    <property name="A5" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="539">
+   <properties>
+    <property name="A4" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="541">
+   <properties>
+    <property name="A5" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="552">
+   <properties>
+    <property name="A6" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="553">
+   <properties>
+    <property name="A7" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="554">
+   <properties>
+    <property name="A8" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="558">
+   <properties>
+    <property name="B3" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="560">
+   <properties>
+    <property name="B4" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="562">
+   <properties>
+    <property name="A6" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="563">
+   <properties>
+    <property name="A7" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="564">
+   <properties>
+    <property name="A8" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="568">
+   <properties>
+    <property name="B3" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="570">
+   <properties>
+    <property name="B4" type="int" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="agua" width="65" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENgCAQQNEDNzAuoRbi/o3bOISaaKGNGMSEeAZ/8TqK43MJTkQcAAAAvm6IoD0jDWiQ3GRE5huL8dqoz51SaUVGE1bZPBsc799HNOistw/q87/1/oF9UJ+fBjSgQTr1dp9mU0S0MPvZNrMGT/Yh17/xvA8hbeYNLgwRtGekAQAAAH5hBbfpEKU=
+  </data>
+ </layer>
+ <layer name="arboles" width="65" height="34" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAOA3IogAAQ==
+  </data>
+ </layer>
+ <objectgroup name="player-layer"/>
+ <objectgroup name="collision-layer"/>
+</map>
